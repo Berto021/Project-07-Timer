@@ -59,6 +59,9 @@ input{
     border-radius: 10px;
     cursor: pointer;
 }
-input .inittimer:hover{
-    background-color: green;
+
+@media(min-width:350px) and (max-width:650px){
+    input{
+        width: 100px;
+    }
 }
